@@ -16,6 +16,3 @@ SELECT med_income.state, med_income.median_income, life_expect.life_expectancy
 FROM med_income
 LEFT JOIN life_expect
 ON med_income.state = life_expect.state;
-
-
-
